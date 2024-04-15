@@ -1,1 +1,1 @@
-# pine
+# This is a personal project. It is currently a work in progress.
