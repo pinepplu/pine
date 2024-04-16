@@ -1,0 +1,14 @@
+.logo {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 3rem;
+}
+
+.logo-text {
+    font-family: monospace;
+    font-size: x-large;
+}
