@@ -1,9 +1,10 @@
 import React from 'react';
 import './Navbar.css'
+import Logo from '../../logos/apple-svgrepo-com.svg'
 
 function Navbar() {
   return (
-    <div>this is navbar</div>
+    <div><Logo /></div>
   )
 }
 
