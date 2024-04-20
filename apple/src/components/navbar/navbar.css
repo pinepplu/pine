@@ -1,18 +1,15 @@
 .nav-container {
-    background-color:rgb(206, 206, 255);
+    background-color: rgb(206, 206, 255);
     display: flex;
     padding: 1rem;
     justify-content: space-between;
 }
 
-button {
+.nav-container button {
     background: none;
     border: none;
-    /* color:whitesmoke; */
-}
-
-button:hover {
     cursor: pointer;
+    /* color:whitesmoke; */
 }
 
 .nav-logo {

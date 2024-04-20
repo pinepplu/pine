@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 import Logo from '../../logos/caramelized-apple-svgrepo-com.png'
-import { MagnifyingGlass, UserCircle, ShoppingBag} from '@phosphor-icons/react';
+import { MagnifyingGlass, UserCircle, ShoppingBag } from '@phosphor-icons/react';
 
 function Navbar() {
   return (
