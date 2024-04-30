@@ -1,11 +1,13 @@
 import React from 'react'
 import './Footer.css'
-import { StarFour, Sparkle, ShootingStar, StarHalf, MoonStars, Star } from '@phosphor-icons/react';
+import Logo from '../../logos/caramelized-apple-svgrepo-com.png'
+// import { StarFour, Sparkle, ShootingStar, StarHalf, MoonStars, Star } from '@phosphor-icons/react';
+import { FacebookLogo, DiscordLogo, XLogo, InstagramLogo } from '@phosphor-icons/react'
 
 function Footer() {
     return (
         <div className='footer-container'>
-                <button className='star-btn'>
+            {/* <button className='star-btn'>
                     Button
                     <div className='star-1'>
                         <StarFour />
@@ -25,11 +27,19 @@ function Footer() {
                     <div className='star-6'>
                         <Star />
                     </div>
-                </button>
+                </button> */}
+            <img src={Logo} alt='logo' className='footer-logo' />
+            <ul className='socials'>FIND US ON SOCIAL MEDIA
+                <li><FacebookLogo size={32} /></li>
+                <li><DiscordLogo size={32} /></li>
+                <li><XLogo size={32} /></li>
+                <li><InstagramLogo size={32} /></li>
+            </ul>
 
-            <div className='content'>
-                Footer content
-            </div>
+            <ul className='contact'>
+                <li>OPEN Monday - Friday</li>
+                <li>10 A.M. - 5 P.M.</li>
+            </ul>
         </div>
     )
 }

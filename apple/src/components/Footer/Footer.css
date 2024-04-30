@@ -1,14 +1,15 @@
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     /* background-color: rgb(161, 161, 254); */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.843);
     color: rgb(206, 206, 255);
     margin-top: auto;
 }
 
-.star-btn {
+/* .star-btn {
     position: relative;
     padding: 12px 35px;
     background: #fec195;
@@ -140,4 +141,25 @@
     width: 5px;
     height: auto;
     z-index: 2;
+} */
+
+.footer-logo {
+    height: 4rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.socials :hover {
+    cursor: pointer;
+    transform: translate(5%, -5%);
+    transition: all .3s ease;
+} 
+
+.contact {
+    list-style: none;
 }
