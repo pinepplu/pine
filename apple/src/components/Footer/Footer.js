@@ -28,7 +28,10 @@ function Footer() {
                         <Star />
                     </div>
                 </button> */}
-            <img src={Logo} alt='logo' className='footer-logo' />
+            <div>
+                <img src={Logo} alt='logo' className='footer-logo' />
+                <strong className='logo-text'>PINE</strong>
+            </div>
             <ul className='socials'>FIND US ON SOCIAL MEDIA
                 <li><FacebookLogo size={32} /></li>
                 <li><DiscordLogo size={32} /></li>
