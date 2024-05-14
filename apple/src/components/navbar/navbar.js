@@ -19,12 +19,12 @@ function Navbar() {
       </div> */}
 
       {/* <div className={menuOpen ? "open" : ""}> */}
-        <div className='search-bar'>
+        <section className='search-bar'>
           <input type='text' placeholder='Search'></input>
           <button><MagnifyingGlass size={32} /></button>
-        </div>
+        </section>
 
-        <div className='right-side'>
+        <section className='right-side'>
           <div className='profile'>
             <button><UserCircle size={32} /></button>
           </div>
@@ -32,7 +32,7 @@ function Navbar() {
           <div className='cart'>
             <button><ShoppingBag size={32} /></button>
           </div>
-        </div>
+        </section>
       {/* </div> */}
 
     </div>
